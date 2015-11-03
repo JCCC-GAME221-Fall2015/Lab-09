@@ -5,8 +5,8 @@
 		_Attenuation("fall off", Range(0,5)) = 0
 	}
 	SubShader {
-		Pass{
 			Tags{"LightMode" = "ForwardBase" }
+		Pass{
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
