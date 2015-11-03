@@ -1,4 +1,4 @@
-﻿Shader "Custom/TextureShader" {
+﻿Shader "Custom/TextureShader2" {
 	Properties {
 		_Color ("Color Tint", Color) = (1,1,1,1)
 		_MainTex("Diffuse Texture", 2D) = "white" {}
