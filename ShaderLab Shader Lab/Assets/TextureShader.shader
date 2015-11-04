@@ -60,7 +60,7 @@
 			//fragment program
 			float4 fragFunction(vertOutput input) : COLOR
 			{
-				float4 tex = tex2D(_MainTex, _MainTex_ST.xy * input.tex.xy + _MainTex_ST.zw);
+				float4 tex = tex2D(_MainTex, _MainTex_ST.zw * input.tex.xy + _MainTex_ST.xy);
 				return tex * input.colour;
 			}
 			ENDCG
